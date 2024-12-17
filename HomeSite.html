@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homies</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        *{
+
+            background-color: rgb(86, 138, 27);
+        }
+        h3{
+            text-shadow: 0.5cm;
+            border-radius: 0.9cm;
+            background-color: aliceblue;
+    text-shadow: 0 -0.05em 0.2em #b1a8a8, 0.01em -0.02em 0.15em rgb(0, 60, 255), 0.01em -0.05em 0.15em rgb(248, 248, 248), 0.02em -0.15em 0.2em #F90, 0.04em -0.20em 0.3em #F70, 0.05em -0.25em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1.0em #F40;
+    color: rgb(2, 2, 2);
+    padding: 10px;
+        }
+        
+        nav{
+            display: block;
+            text-align: center;
+            word-spacing: 3cm;
+            font-size:larger;
+            border-radius: 1cm;
+            border: coral;
+            background-color: aliceblue;
+            padding: 10px;
+            width: 100%;
+        }
+        main{
+            padding: 15px;
+            justify-content: center;
+            background-image: url(../back.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            height:100vh; /* Set height to 100% of viewport height */
+            width: 100vw; /* Set width to 100% of viewport width */
+        }
+        a:hover{
+            color: #F70;
+        }
+        a{
+            text-decoration: none;
+        }
+        nav .dropdown {
+            position: relative;
+            display: inline-block;
+            background-color: aliceblue;
+        }
+
+        nav .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #fffffffa;
+            min-width: 160px;
+            border-radius: 5px;
+        }
+
+        nav .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        nav .dropdown-content a:hover {
+            color: rgb(230, 46, 190);
+            background-color: rgb(255, 253, 148);
+            filter: drop-shadow(0 0 10px #ff3abd);
+        }
+
+        nav .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        nav .dropdown:hover > a {
+            color: #F70;
+        }
+        main a {
+            color: white;
+            list-style-position: calc(2,5);
+            word-spacing: 3cm;
+        }
+        nav .cir{
+            transition: width 0.2s, height 0.2s, border-radius 0.2s, color 0.2s, font 0.2s, drop-shadow 1s, text-shadow 2s;
+        }
+        nav .cir:hover{
+            color: #060505;
+            width: 5cm;
+            height: 50cm;
+            border-radius: 20%;
+            /* background-color: rgb(255, 253, 113); */
+            font-size: 2cm;
+            filter: drop-shadow(0 0 10px #ff3abd);
+            text-shadow: 0 -0.05em 0.2em #b1a8a8, 0.01em -0.02em 0.15em rgb(0, 60, 255), 0.01em -0.05em 0.15em rgb(248, 248, 248), 0.02em -0.15em 0.2em rgb(255, 214, 152), 0.04em -0.20em 0.3em rgb(252, 207, 167), 0.05em -0.25em 0.4em rgb(255, 206, 163), 0.06em -0.2em 0.9em rgb(255, 195, 165), 0.1em -0.1em 1.0em rgb(255, 216, 201);
+        }
+        @keyframes bouncing{
+
+        }
+    </style>
+</head>
+<body>
+        <header><center><h3> Tanishk Enterprises</h3></center></header>
+        <nav>
+            <div class="dropdown">
+                <a href="#" class="cir">Home</a>
+            <div class="dropdown-content">
+                <a href="../pp.jpg"> Selfie </a>
+                <a href="../profile Pic.jpg"> Full </a>
+            </div>
+            </div>
+            
+            <a href="#" class="cir">Content </a>
+            <a href="#" class="cir"> Pics </a>
+            <a href="file:///C:/Users/hp/Desktop/vs/Site.html" target="_blank"> ClgLife</a>
+            <a href="#" class="cir"> Interests </a>
+        </nav>
+        <main>
+            <br>
+            <a href="https://www.youtube.com/" target="_blank"> YouTube </a>
+            <a href="www.weather.com" target="_blank"> Weather </a>
+            <a href="file:///C:/Users/hp/Desktop/vs/Articles.html" target="_blank"> Articles</a>
+        </main>
+</body>
+</html>
